@@ -64,18 +64,48 @@ class PageDayOne extends StatelessWidget {
                 style: TextStyle(fontSize: 18, color: Colors.black87),
               ),
               //card Item
-
               const SizedBox(height: 20),
-
               Expanded(
                 child: GridView.count(
                   crossAxisCount: 2,
                   mainAxisSpacing: 2,
                   children: const [
-                    CardItem(r: 140, g: 122, b: 230, a: 0.15),
-                    CardItem(r: 7, g: 153, b: 146, a: 0.15),
-                    CardItem(r: 250, g: 152, b: 58, a: 0.2),
-                    CardItem(r: 60, g: 99, b: 130, a: 0.2)
+                    CardItem(
+                      r: 140,
+                      g: 122,
+                      b: 230,
+                      a: 0.15,
+                      IconName: "📈",
+                      titleName: "Pay someone",
+                      description: "To wallet, bank or mobile number",
+                    ),
+                    CardItem(
+                      r: 7,
+                      g: 153,
+                      b: 146,
+                      a: 0.15,
+                      IconName: "👻",
+                      titleName: "Request Money",
+                      description: "To wallet, bank or mobile number",
+                    ),
+                    CardItem(
+                      r: 250,
+                      g: 152,
+                      b: 58,
+                      a: 0.2,
+                      IconName: "💩",
+                      titleName: "Buy Airtime",
+                      description: "To wallet, bank or mobile number",
+                    ),
+                    CardItem(
+                      r: 60,
+                      g: 99,
+                      b: 130,
+                      a: 0.2,
+                      IconName: "🐶",
+                      titleName: "Pay Bill",
+                      description: "To wallet, bank or mobile number",
+                    )
                   ],
                 ),
               )
