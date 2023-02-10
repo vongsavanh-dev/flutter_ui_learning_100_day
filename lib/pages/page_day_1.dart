@@ -110,6 +110,7 @@ class PageDayOne extends StatelessWidget {
                 ),
               ),
               Container(
+
                 color: Colors.red,
                 width: double.infinity,
                 height: double.infinity,
