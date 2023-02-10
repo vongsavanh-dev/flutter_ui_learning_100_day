@@ -108,7 +108,15 @@ class PageDayOne extends StatelessWidget {
                     )
                   ],
                 ),
-              )
+              ),
+              Container(
+                color: Colors.red,
+                width: double.infinity,
+                height: double.infinity,
+                child: Column(
+                  children: [Text("Your favorites people")],
+                ),
+              ),
             ],
           ),
         ),
